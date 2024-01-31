@@ -3,8 +3,8 @@
 
 :root {
     font-family: 'Roboto', sans-serif;
-    --primary-color: rgb(52, 101, 164);
-    --secondary-color: rgb(114,159,207);
+    --primary-color: #0f6fc7;
+    --secondary-color: #019cd9;
     /* --bs-primary-rgb: 26, 115, 232; */
 }
 
