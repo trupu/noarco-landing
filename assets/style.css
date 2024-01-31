@@ -119,11 +119,11 @@ a {
     color: var(--primary-color);
 }
 
-.image-gradient {
+/* .image-gradient {
     background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 75%);
 
 width: 100%;
 height: 100%;
 z-index: 10;
-}
+} */
