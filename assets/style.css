@@ -3,8 +3,18 @@
 
 :root {
     font-family: 'Roboto', sans-serif;
-    --primary-color: #1a73e8;
+    --primary-color: rgb(52, 101, 164);
+    --secondary-color: rgb(114,159,207);
     /* --bs-primary-rgb: 26, 115, 232; */
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+
+}
+
+.text-secondary {
+    color: var(--secondary-color) !important;
 }
 
 html {
@@ -31,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu-nav-link {
     text-decoration: none;
     text-transform: uppercase;
+    /* color: var(--primary-color); */
 }
 
 .main-section {
@@ -46,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .heading-title {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     font-weight: bold;
     text-transform: uppercase;
     font-size: 40px;
@@ -105,4 +116,5 @@ h1, h2, h3, h4, h5, h6 {
 
 a { 
     text-decoration: none;
+    color: var(--primary-color);
 }
