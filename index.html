@@ -4,27 +4,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-        <style>
-            :root {
-                --primary: #0d6efd;
-                --secondary: #6c757d;
-               
-                scroll-behavior: smooth;
-            }
-        </style>
     </head>
 
     <body>
         
         <div id="app">
-            <nav class="container d-flex align-items-center justify-content-between">
+            <nav class="container d-flex justify-content-between align-items-center gap-5 mb-5">
         
-                <a href="#about-us">About us</a>
-                <a href="#our-services">Our services</a>
-                <a href="#career">Career</a>
-                <a href="#contact">Contact</a>
+                <div>
+                    <a href="/">
+                        <img src="/images/noarco_logo.webp" alt="" height="70">
+                    </a>
+                </div>
+
+                <div class="d-lg-none">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#about-us" class="dropdown-item menu-nav-link">About us</a></li>
+                            <li><a href="#our-services" class="dropdown-item menu-nav-link">Our services</a></li>
+                            <li><a href="#career" class="dropdown-item menu-nav-link">Career</a></li>
+                            <li><a href="#contact" class="dropdown-item menu-nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-flex gap-5 align-items-center">
+                    <a href="#about-us" class="menu-nav-link">About us</a>
+                    <a href="#our-services" class="menu-nav-link">Our services</a>
+                    <a href="#career" class="menu-nav-link">Career</a>
+                    <a href="#contact" class="menu-nav-link">Contact</a>
+                </div>
             
             </nav>
 
@@ -32,40 +44,159 @@
 
                 <div class="container mx-auto text-center">
                 
-                    <section id="about-us">
+                    <section id="about-us" class="main-section">
 
-                        <h2 class="mb-4">About us</h2>
+                        <div class="mb-5">
+                            <h2 class="heading-title mb-5">About us</h2>
                         
-                        <p>
-                            We are <strong>experts in PLC and ROB programming, </strong>
-                        </p>
+                            <p>
+                                We are <strong>experts in PLC and ROB programming, </strong>
+                            </p>
 
-                        <p>
-                            We employ <strong>only senior, experienced Programmers</strong> with at least 5 years commercial experience.<br />
-                            Noarco has 19 Specialists on board
-                        </p>
+                            <p>
+                                We employ <strong>only senior, experienced Programmers</strong> with at least 5 years commercial experience.<br />
+                                Noarco has 19 Specialists on board
+                            </p>
 
-                        <p>
-                            We are especially proficient in automotive industry, working with all big players and under all programming standards.
-                        </p>
+                            <p>
+                                We are especially proficient in automotive industry, working with all big players and under all programming standards.
+                            </p>
+                        </div>
 
-                        <h2>Our clients</h2>
+                        <div>
+                            <h2 class="heading-title mb-5">Our clients</h2>
+
+                            <div class="d-none d-lg-flex justify-content-center align-items-center flex-wrap gap-5 mb-5 py-5">
+                            
+                                <img src="/images/logo_mercedes.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo_audi.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo_vw.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo_volvo.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo_skoda.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo_bentley.webp" alt="" height="80" loading="lazy">
+                            
+                                <img src="/images/logo_bmw.webp" alt="" height="80" loading="lazy">
+                                
+                                <img src="/images/logo_opel.webp" alt="" height="80" loading="lazy">
+
+                            </div>
+
+                        
+                            <div class="d-flex d-lg-none justify-content-center align-items-center flex-wrap gap-4 mb-5">
+                        
+                                <img src="/images/logo_mercedes.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo_audi.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo_vw.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo_volvo.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo_skoda.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo_bentley.webp" alt="" height="60" loading="lazy">
+                            
+                                <img src="/images/logo_bmw.webp" alt="" height="60" loading="lazy">
+                                
+                                <img src="/images/logo_opel.webp" alt="" height="60" loading="lazy">
+
+                            </div>
+
+                            <div class="d-none d-lg-flex justify-content-between align-items-center flex-wrap gap-5 mb-5 mx-auto" style="max-width: 700px;">
+                        
+                                <img src="/images/logo2_valeo.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo2_taskoprojekt.webp" alt="" height="60" loading="lazy">
+
+                                <img src="/images/logo2_leadec.webp" alt="" height="60" loading="lazy">
+
+                            </div>
+
+                            <div class="d-none d-lg-flex justify-content-between align-items-center flex-wrap gap-5 mx-auto" style="max-width: 500px;">
+                                <img src="/images/logo2_chropynska.webp" alt="" height="80" loading="lazy">
+
+                                <img src="/images/logo2_abb.webp" alt="" height="80" loading="lazy">
+                            </div>
+                  
+                            <div class="d-flex d-lg-none justify-content-center align-items-center flex-wrap gap-5">
+                        
+                                <img src="/images/logo2_valeo.webp" alt="" height="40" loading="lazy">
+
+                                <img src="/images/logo2_taskoprojekt.webp" alt="" height="40" loading="lazy">
+
+                                <img src="/images/logo2_leadec.webp" alt="" height="40" loading="lazy">
+
+                                <img src="/images/logo2_chropynska.webp" alt="" height="40" loading="lazy">
+
+                                <img src="/images/logo2_abb.webp" alt="" height="40" loading="lazy">
+
+                            </div>
+
+
+                        </div>
 
                     </section>
 
-                    <section id="our-services">
+                    <section id="our-services" class="main-section">
 
-                        <h2>Our services</h2>
+                        <h2 class="heading-title mb-5">Our services</h2>
+
+                        <div class="row align-items-center">
+                        
+                            <div class="col-12 col-lg-4">
+                            
+                                <h3 class="fw-bold">
+                                    ROB Programming
+                                </h3>
+
+                                <p class="mb-0 text-uppercase">
+                                    Kuka
+                                </p>
+
+                                <p class="mb-0 text-uppercase">
+                                    Fanuc
+                                </p>
+
+                                <p class="mb-0 text-uppercase">
+                                    ABB
+                                </p>
+
+                                <p class="mb-0 text-uppercase">
+                                    Motoman-Yaskawa
+                                </p>
+
+                            </div>
+                            <div class="col-12 col-lg-4">
+                            
+                                <div class="w-100 overflow-hidden" style="border-radius: 10%;">
+                                    <img src="/images/big-2.webp" alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-4">
+                            
+                                <h3 class="fw-bold">
+                                    PLC Programming
+                                </h3>
+                            
+                            </div>
+                        
+                        </div>
                         
                     </section>
 
-                    <section id="career">
+                    <section id="career" class="main-section">
 
                         <h2>Career</h2>
                         
                     </section>
 
-                    <section id="contact">
+                    <section id="contact" class="main-section">
 
                         <h2>Contact</h2>
                         
@@ -76,6 +207,7 @@
             </main>
         </div>
 
+        <script type="module" src="./assets/main.js"></script>
     </body>
 
 </html>
