@@ -25,7 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-section {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+
+    @media (min-width: 992px) {
+        margin-bottom: 200px;
+    }
 }
 
 .scrollable-content::-webkit-scrollbar {
